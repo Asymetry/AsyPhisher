@@ -15,7 +15,7 @@ class listen:
                 break
             sys.stdout.write('\rlistening ' + c)
             sys.stdout.flush()
-            time.sleep(0.5)
+            time.sleep(0.3)
 
 
     def getPassword(self):
