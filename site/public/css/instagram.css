@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.instagram {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.instagram .container {
+  max-width: 400px;
+  width: 90%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #c9c9c9;
+  border-radius: 3px;
+  margin-top: 100px;
+}
+
+.instagram .container img {
+  width: 220px;
+  background-size: cover;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.instagram .container input {
+  width: 220px;
+  height: 40px;
+  background-color: #f9f9f9;
+  border: 1px solid #c9c9c9;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+.instagram .container button {
+  width: 234px;
+  height: 35px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  border: none;
+  outline: none;
+  background-color: #0275d8;
+  color: white;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.instagram .store {
+  max-width: 400px;
+  width: 97%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 3px;
+  margin-top: 50px;
+}
+
+.instagram .store img {
+  width: 130px;
+  height: 40px;
+  margin: 5px;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */
